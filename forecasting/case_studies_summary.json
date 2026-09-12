@@ -1,0 +1,54 @@
+{
+  "showcase_case_1": {
+    "cow_id": "synth_cow_010",
+    "onset_day": 37,
+    "milestones": [
+      {
+        "day_to_onset": -14,
+        "day": 23,
+        "score": 14.9,
+        "band": "LOW RISK"
+      },
+      {
+        "day_to_onset": -10,
+        "day": 27,
+        "score": 54.7,
+        "band": "MODERATE RISK"
+      },
+      {
+        "day_to_onset": -7,
+        "day": 30,
+        "score": 74.5,
+        "band": "HIGH RISK"
+      },
+      {
+        "day_to_onset": -3,
+        "day": 34,
+        "score": 93.0,
+        "band": "CRITICAL RISK"
+      },
+      {
+        "day_to_onset": 0,
+        "day": 37,
+        "score": 96.8,
+        "band": "CRITICAL RISK"
+      }
+    ]
+  },
+  "case_2_acute": {
+    "cow_id": "synth_cow_006",
+    "onset_day": 27
+  },
+  "case_3_history": {
+    "cow_id": "synth_cow_074",
+    "onset_day": 25
+  },
+  "case_4_control": {
+    "cow_id": "synth_cow_001",
+    "mean_score": 7.631111111111112
+  },
+  "case_5_heat_stress": {
+    "cow_id": "synth_cow_015",
+    "peak_heat_score": 23.5
+  }
+}

@@ -1,0 +1,168 @@
+{
+  "top_10_features": [
+    {
+      "feature": "asym_IU",
+      "mean_abs_shap": 0.12424527145158465
+    },
+    {
+      "feature": "std_IU",
+      "mean_abs_shap": 0.10910283543788112
+    },
+    {
+      "feature": "std_EU",
+      "mean_abs_shap": 0.04427494185807321
+    },
+    {
+      "feature": "front_rear_ratio",
+      "mean_abs_shap": 0.030673895032545424
+    },
+    {
+      "feature": "asym_EU",
+      "mean_abs_shap": 0.02938694490838076
+    },
+    {
+      "feature": "diff_FR",
+      "mean_abs_shap": 0.02836011183203052
+    },
+    {
+      "feature": "diff_RL",
+      "mean_abs_shap": 0.028340183067807737
+    },
+    {
+      "feature": "mean_differential",
+      "mean_abs_shap": 0.024500284351487545
+    },
+    {
+      "feature": "EURL",
+      "mean_abs_shap": 0.02409546609154064
+    },
+    {
+      "feature": "left_right_ratio",
+      "mean_abs_shap": 0.0239665235249755
+    }
+  ],
+  "all_features_importance": [
+    {
+      "feature": "asym_IU",
+      "mean_abs_shap": 0.12424527145158465
+    },
+    {
+      "feature": "std_IU",
+      "mean_abs_shap": 0.10910283543788112
+    },
+    {
+      "feature": "std_EU",
+      "mean_abs_shap": 0.04427494185807321
+    },
+    {
+      "feature": "front_rear_ratio",
+      "mean_abs_shap": 0.030673895032545424
+    },
+    {
+      "feature": "asym_EU",
+      "mean_abs_shap": 0.02938694490838076
+    },
+    {
+      "feature": "diff_FR",
+      "mean_abs_shap": 0.02836011183203052
+    },
+    {
+      "feature": "diff_RL",
+      "mean_abs_shap": 0.028340183067807737
+    },
+    {
+      "feature": "mean_differential",
+      "mean_abs_shap": 0.024500284351487545
+    },
+    {
+      "feature": "EURL",
+      "mean_abs_shap": 0.02409546609154064
+    },
+    {
+      "feature": "left_right_ratio",
+      "mean_abs_shap": 0.0239665235249755
+    },
+    {
+      "feature": "diff_FL",
+      "mean_abs_shap": 0.016783576801348773
+    },
+    {
+      "feature": "Temperature",
+      "mean_abs_shap": 0.009165974650768868
+    },
+    {
+      "feature": "EUFR",
+      "mean_abs_shap": 0.008214653387729849
+    },
+    {
+      "feature": "IUFR",
+      "mean_abs_shap": 0.008014870310141855
+    },
+    {
+      "feature": "IUFL",
+      "mean_abs_shap": 0.007963820294907721
+    },
+    {
+      "feature": "IURL",
+      "mean_abs_shap": 0.0076531971924010435
+    },
+    {
+      "feature": "diff_RR",
+      "mean_abs_shap": 0.007548214205696394
+    },
+    {
+      "feature": "IURR",
+      "mean_abs_shap": 0.006306040687061154
+    },
+    {
+      "feature": "temp_deviation",
+      "mean_abs_shap": 0.005699150669661779
+    },
+    {
+      "feature": "EUFL",
+      "mean_abs_shap": 0.0038096650044441346
+    },
+    {
+      "feature": "EURR",
+      "mean_abs_shap": 0.0033078778999864077
+    },
+    {
+      "feature": "high_risk_lactation",
+      "mean_abs_shap": 0.0001505591331742021
+    },
+    {
+      "feature": "Months after giving birth",
+      "mean_abs_shap": 0.00010514265204087461
+    },
+    {
+      "feature": "Breed_Holstein",
+      "mean_abs_shap": 1.8493438521925868e-05
+    },
+    {
+      "feature": "history_risk",
+      "mean_abs_shap": 1.3593052147716655e-05
+    },
+    {
+      "feature": "Previous_Mastits_status",
+      "mean_abs_shap": 0.0
+    }
+  ],
+  "sample_tp": {
+    "cow_id": "cow10",
+    "day": 2,
+    "probability": 0.9084412825956654,
+    "explanation": "Flagged as HIGH RISK (Clinical Mastitis Indicated) (Predicted probability: 90.8%). Key drivers: widened inner-to-outer udder tissue gradient (diff_RL = 47.0), widened inner-to-outer udder tissue gradient (mean_differential = 42.8), widened inner-to-outer udder tissue gradient (diff_FR = 43.0)."
+  },
+  "sample_tn": {
+    "cow_id": "cow10",
+    "day": 6,
+    "probability": 0.07885159302474211,
+    "explanation": "Evaluated as LOW RISK (Healthy / Normal Udder) (Predicted probability: 7.9%). Confirmatory signs: symmetric quarter measurements (asym_IU = 5.0), low inter-quarter variance (std_IU = 2.4), normal baseline mean_differential (33.2)."
+  },
+  "sample_fp": {
+    "cow_id": "cow1097",
+    "day": 4,
+    "probability": 0.5155520506468483,
+    "explanation": "Flagged as HIGH RISK (Clinical Mastitis Indicated) (Predicted probability: 51.6%). Key drivers: elevated EURL (287.0), elevated IURR (245.0), widened inner-to-outer udder tissue gradient (diff_FR = 50.0)."
+  }
+}

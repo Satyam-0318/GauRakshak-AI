@@ -1,0 +1,81 @@
+{
+  "experiment_type": "SYNTHETIC_SIMULATION_PROTOTYPE (NOT CLINICAL VALIDATION)",
+  "target": "target_onset_next_14d",
+  "feature_columns": [
+    "asym_IU",
+    "asym_EU",
+    "std_IU",
+    "max_quarter_diff",
+    "mean_differential",
+    "Temperature",
+    "temp_deviation",
+    "asym_IU_mean_7d",
+    "asym_IU_std_7d",
+    "asym_IU_delta_7d",
+    "asym_IU_delta_3d",
+    "asym_acceleration",
+    "temp_mean_7d",
+    "temp_delta_7d",
+    "temp_delta_3d",
+    "max_diff_delta_7d",
+    "Months after giving birth",
+    "high_risk_lactation",
+    "Previous_Mastits_status",
+    "Breed_Holstein"
+  ],
+  "test_results": {
+    "Random Forest": {
+      "accuracy": 0.964516129032258,
+      "precision": 0.9221556886227545,
+      "recall": 0.7857142857142857,
+      "f1_score": 0.8484848484848485,
+      "roc_auc": 0.9138795104452416,
+      "pr_auc": 0.8518346742468179,
+      "fnr": 0.21428571428571427,
+      "confusion_matrix": {
+        "tn": 1341,
+        "fp": 13,
+        "fn": 42,
+        "tp": 154
+      }
+    },
+    "XGBoost": {
+      "accuracy": 0.94,
+      "precision": 0.7536945812807881,
+      "recall": 0.7806122448979592,
+      "f1_score": 0.7669172932330827,
+      "roc_auc": 0.8907922105326621,
+      "pr_auc": 0.8332312048784712,
+      "fnr": 0.2193877551020408,
+      "confusion_matrix": {
+        "tn": 1304,
+        "fp": 50,
+        "fn": 43,
+        "tp": 153
+      }
+    },
+    "Logistic Regression": {
+      "accuracy": 0.944516129032258,
+      "precision": 0.7619047619047619,
+      "recall": 0.8163265306122449,
+      "f1_score": 0.7881773399014779,
+      "roc_auc": 0.9134574804811142,
+      "pr_auc": 0.862412253196072,
+      "fnr": 0.1836734693877551,
+      "confusion_matrix": {
+        "tn": 1304,
+        "fp": 50,
+        "fn": 36,
+        "tp": 160
+      }
+    }
+  },
+  "lead_time_metrics": {
+    "total_sick_cows_test": 14,
+    "average_lead_time_days": 11.86,
+    "min_lead_time_days": 10,
+    "max_lead_time_days": 17,
+    "pct_detected_ge_7d_early": 100.0,
+    "pct_detected_ge_14d_early": 14.29
+  }
+}
