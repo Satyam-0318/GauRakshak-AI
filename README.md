@@ -1,6 +1,6 @@
 # GauRakshak AI: Dairy Mastitis Clinical Prediction Platform
 
-A modern, production-grade diagnostic web application that serves a trained machine learning classification engine for detecting and categorizing **Bovine Mastitis** in dairy cows.
+A modern, production-grade diagnostic web application that serves a trained machine learning classification engine for detecting and categorizing **Bovine Mastitis** in dairy cows
 
 The system evaluates raw milk biophysical indicators (**pH**, **Electrical Conductivity (EC)**, and **Somatic Cell Count (SCC)**) along with environmental and herd variables (**Season**, **Lactation Stage**, **Parity**, and **Milk Yield**) to provide real-time risk assessment across three clinical stages:
 1. **Healthy Udder** ($\text{SCC} < 2.0 \times 10^5 \text{ cells/mL}$)
