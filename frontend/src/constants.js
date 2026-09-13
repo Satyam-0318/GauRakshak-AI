@@ -1,7 +1,7 @@
 // API Base URL - auto-detects dev server vs unified FastAPI port
 export const API_BASE_URL = typeof window !== 'undefined' && window.location.port === '5173'
   ? 'http://127.0.0.1:8000'
-  : '';
+  : 'https://gaurakshak-ai.onrender.com';
 
 // Categorical options exactly matching trained ColumnTransformer
 export const CATEGORICAL_OPTIONS = {
